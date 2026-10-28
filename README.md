@@ -93,7 +93,7 @@ Two three-input multiplexers select each EXE operand from its pipeline value, th
 
 The original folder named `ARM968E_S` also contains forwarding and SRAM logic. It is stored as `sram-alternate`, not as the Phase 1 baseline or a proven successor.
 
-Relative to `sram`, it uses nine address bits for all four byte addresses and changes the memory output/enable logic. However, the `SRAM_Model` instance omits `.clk(clk)`, and the memory enable is tied high. Its archived timing has negative setup slack. The exact [RTL differences](docs/sram-variant.diff) are retained; neither SRAM snapshot is presented as a fully validated release.
+Relative to `sram`, it uses nine address bits for all four byte addresses and changes the memory output/enable logic. However, the `SRAM_Model` instance omits `.clk(clk)`, and the memory enable is tied high. Its archived timing has negative setup slack. neither SRAM snapshot is presented as a fully validated release.
 
 ## Recorded implementation results
 
