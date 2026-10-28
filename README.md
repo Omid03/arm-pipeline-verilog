@@ -149,4 +149,4 @@ Packaging checks verify preserved RTL/testbench bytes and required files. The pr
 
 The next verification step is a self-checking regression covering independent MEM/WB forwarding, load-use dependencies, store-data dependencies, signed arithmetic and shifts, branch conditions, and SRAM transactions across the complete address range. Correct the documented defects before making performance or instruction-compatibility claims.
 
-The original RTL is preserved. Only IP coefficient-file paths were relocated during packaging. Diagram provenance is recorded in [figure-sources.md](docs/figure-sources.md).
+The original RTL is preserved. Only IP coefficient-file paths were relocated during packaging.
