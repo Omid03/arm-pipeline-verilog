@@ -1,0 +1,9 @@
+Archived wrapper-level utilization, including debug and memory IP.
+
+| Slice LUTs                 | 3187 |     0 |     17600 | 18.11 |
+| Slice Registers            | 3323 |     0 |     35200 |  9.44 |
+| Slice Registers                            | 3323 |     0 |     35200 |  9.44 |
+* Note: Available Control Sets calculated as Slice Registers / 8, Review the Control Sets Report for more information regarding control sets.
+| Block RAM Tile    |  6.5 |     0 |        60 | 10.83 |
+* Note: Each Block RAM Tile only has one FIFO logic available and therefore can accommodate only one FIFO36E1 or one FIFO18E1. However, if a FIFO18E1 occupies a Block RAM Tile, that tile can still accommodate a RAMB18E1
+| DSPs      |    0 |     0 |        80 |  0.00 |

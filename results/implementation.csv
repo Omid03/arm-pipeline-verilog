@@ -1,0 +1,5 @@
+snapshot,core_clock_mhz,wns_ns,tns_ns,whs_ns,slice_luts,slice_registers,bram_tiles
+hazard,33.333,0.835,0.000,0.030,4009,3226,6.5
+forwarding,33.333,0.210,0.000,0.042,4272,3477,6.5
+sram,33.000,0.277,0.000,0.070,3109,3052,7
+sram-alternate,33.333,-0.173,-0.173,0.021,3187,3323,6.5

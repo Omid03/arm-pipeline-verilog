@@ -1,0 +1,39 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 869934b6ffae491da011f0e38169836a --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ARM_TB_behav xil_defaultlib.ARM_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.register(num_bit=32)
+Compiling module xil_defaultlib.adder(num_bit=32)
+Compiling module xil_defaultlib.mux2x1(num_bit=32)
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="z...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.IF_Stage
+Compiling module xil_defaultlib.register_pipe(num_bit=64)
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.Register_File
+Compiling module xil_defaultlib.cond_check
+Compiling module xil_defaultlib.mux2x1(num_bit=4)
+Compiling module xil_defaultlib.mux2x1(num_bit=9)
+Compiling module xil_defaultlib.ID_Stage
+Compiling module xil_defaultlib.register_pipe(num_bit=155)
+Compiling module xil_defaultlib.mux3x1(num_bit=32)
+Compiling module xil_defaultlib.Rotational_Shifter
+Compiling module xil_defaultlib.Val_2_Generator
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.EXE_Stage
+Compiling module xil_defaultlib.Status_Register
+Compiling module xil_defaultlib.register_pipe(num_bit=71)
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="z...
+Compiling module xil_defaultlib.dist_mem_gen_1
+Compiling module xil_defaultlib.register_pipe(num_bit=70)
+Compiling module xil_defaultlib.hazard_detection
+Compiling module xil_defaultlib.forwarding_unit
+Compiling module xil_defaultlib.ARM
+Compiling module xil_defaultlib.ARM_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ARM_TB_behav
