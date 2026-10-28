@@ -121,7 +121,6 @@ The 100 MHz clock used by `ARM_TB` is a behavioral stimulus, not a demonstrated 
 | `snapshots/<name>/constraints/` | Original board pin assignments |
 | `docs/figures/` | Architecture images used above |
 | `docs/design/` | Editable Visio diagrams |
-| `docs/technical-review.md` | Concrete source findings and verification gaps |
 | `results/` | Archived evidence, metrics and source hashes |
 | `scripts/create_project.tcl` | Vivado project reconstruction helper |
 | `scripts/verify_package.py` | Source-integrity and package checks |
