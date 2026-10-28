@@ -37,7 +37,7 @@ The register file and status register update on the falling clock edge; pipeline
 | Flag-setting comparisons | CMP, TST |
 | Memory and control flow | Selected LDR/STR forms, B, condition checking |
 
-These entries describe implemented decode paths, not verified instruction conformance. The operand generator includes immediate rotation and register shift paths; arithmetic-shift, subtraction/carry and condition-code behavior require correction or directed testing. See [technical review](docs/technical-review.md).
+These entries describe implemented decode paths, not verified instruction conformance. The operand generator includes immediate rotation and register shift paths; arithmetic-shift, subtraction/carry and condition-code behavior require correction or directed testing.
 
 **Progress.** This establishes the datapath used by the following phases. Separate IF-only, ID-only and EXE-only source versions were not supplied, so they are not presented as independently tested releases.
 
