@@ -17,7 +17,7 @@ The project studies these mechanisms in separate source snapshots. The engineeri
 | 1. Pipeline foundation | Fetch, decode, operand generation, execution, memory access and writeback | Modules retained in later snapshots; no separate early-stage snapshot |
 | 2. Hazard handling | Freeze fetch/decode and inject a bubble on RAW dependencies | [`snapshots/hazard`](snapshots/hazard) |
 | 3. Forwarding | Select operands from MEM/WB paths and retain load-use stalls | [`snapshots/forwarding`](snapshots/forwarding) |
-| 4. SRAM integration | Serialize 32-bit transfers over an 8-bit interface and hold the pipeline | [`snapshots/sram`](snapshots/sram), plus an [alternate snapshot](snapshots/sram-alternate) |
+| 4. SRAM integration | Serialize 32-bit transfers over an 8-bit interface and hold the pipeline | [`snapshots/sram`](snapshots/sram)|
 
 **Evidence status:** archived Vivado outputs are included, but the supplied testbenches have no automatic result checks. No new RTL simulation, synthesis or implementation was run while preparing this repository. Known functional issues are documented below.
 
